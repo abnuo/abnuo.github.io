@@ -1,5 +1,5 @@
 // <![CDATA[
-expr = document.getElementById("expr").textContent
+var expr = document.getElementById("expr").textContent
 for (var x = 0; x < 256; x++) {
   for (var y = 0; y < 256; y++) {
     var rect = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
